@@ -1,5 +1,10 @@
 #pragma once
+
 #include "Core.h"
+#include "time\TimeModule.h"
+#include "maths\MathsModule.h"
+#include "physics\PhysicsModule.h"
+#include "rendering\RenderingModule.h"
 
 class AzureEngine {
 
@@ -17,6 +22,10 @@ public:
 	int shutdown();
 
 private:
-	Core core;
+	Core* core;
+	TimeModule* mTime;
+	MathsModule* mMaths;
+	PhysicsModule* mPhysics;
+	RenderingModule* mRendering;
 
 };

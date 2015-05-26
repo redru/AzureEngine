@@ -81,9 +81,14 @@
     <ClCompile Include="Source\core\Core.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Headers\const\EngineStateCodes.h" />
     <ClInclude Include="Headers\core\AzureEngine.h" />
     <ClInclude Include="Headers\core\Core.h" />
     <ClInclude Include="Headers\error\ErrorCodes.h" />
+    <ClInclude Include="Headers\maths\MathsModule.h" />
+    <ClInclude Include="Headers\physics\PhysicsModule.h" />
+    <ClInclude Include="Headers\rendering\RenderingModule.h" />
+    <ClInclude Include="Headers\time\TimeModule.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

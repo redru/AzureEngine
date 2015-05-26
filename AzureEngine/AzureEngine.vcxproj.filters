@@ -37,11 +37,17 @@
     <Filter Include="Headers\physics">
       <UniqueIdentifier>{0ed80de6-ae00-4598-b3af-f5fb6d94c6a6}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Headers\error">
-      <UniqueIdentifier>{eb10a79a-6abd-4df3-83b0-edffbb297d35}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source\error">
       <UniqueIdentifier>{65a5b484-d2d0-432b-bf01-ff8db69e63d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\rendering">
+      <UniqueIdentifier>{221f9d81-0b08-4240-83fa-a1bbcc65685f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\util">
+      <UniqueIdentifier>{f7226feb-ca06-4419-8a75-3df5cebe1585}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\const">
+      <UniqueIdentifier>{eb10a79a-6abd-4df3-83b0-edffbb297d35}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -63,7 +69,22 @@
       <Filter>Headers\core</Filter>
     </ClInclude>
     <ClInclude Include="Headers\error\ErrorCodes.h">
-      <Filter>Headers\error</Filter>
+      <Filter>Headers\const</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\maths\MathsModule.h">
+      <Filter>Headers\maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\physics\PhysicsModule.h">
+      <Filter>Headers\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\time\TimeModule.h">
+      <Filter>Headers\time</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\rendering\RenderingModule.h">
+      <Filter>Headers\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\const\EngineStateCodes.h">
+      <Filter>Headers\const</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

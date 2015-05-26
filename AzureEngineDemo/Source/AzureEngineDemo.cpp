@@ -1,7 +1,7 @@
 #include <iostream>
 
 #include "core\AzureEngine.h"
-#include "error\ErrorCodes.h"
+#include "const\ErrorCodes.h"
 
 unsigned int main() {
 
@@ -9,6 +9,7 @@ unsigned int main() {
 
 	AzureEngine engine{};
 	engine.configure();
+	engine.startup();
 
 	return ERR::NO_ERROR;
 }
